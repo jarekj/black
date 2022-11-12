@@ -1,8 +1,8 @@
 
 const footer = document.querySelector('footer');
 
-
-footer = document.addEventListener('click', ()=>{
+console.log(footer);
+footer.addEventListener('click', ()=>{
     if(!document.fullscreenElement){
         document.documentElement.requestFullscreen();
     } else if (document.exitFullscreen){
